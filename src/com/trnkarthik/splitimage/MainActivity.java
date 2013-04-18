@@ -27,7 +27,7 @@ public class MainActivity extends Activity {
 				// TODO Auto-generated method stub
 
 				Bitmap icon = BitmapFactory.decodeResource(getApplicationContext().getResources(),
-                        R.drawable.karthik);
+                        R.drawable.image);
 				Bitmap scaledBitmap = Bitmap.createScaledBitmap(icon, 240, 240, true);
 				Bitmap[] imgs = new Bitmap[9];
 				imgs[0] = Bitmap.createBitmap(scaledBitmap, 0, 0, 80 , 80);
